@@ -2,7 +2,7 @@
 
 I designed this project during my Design Thinking course, where the goal was to build something that solves a real-world problem rather than just a theoretical or academic exercise.
 
-While observing daily commuting patterns, I noticed a recurring issue in public transport systems — passengers have no real-time visibility of crowd levels, which often leads to discomfort, uncertainty while boarding, and inefficient passenger distribution.
+While observing daily commuting patterns, I noticed a recurring issue in public transport systems passengers have no real-time visibility of crowd levels, which often leads to discomfort, uncertainty while boarding, and inefficient passenger distribution.
 
 That’s what led me to build TransVi.
 
