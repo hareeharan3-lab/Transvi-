@@ -40,3 +40,6 @@ Data-driven decision making for smart cities
 Modular and scalable architecture design
 
 This project helped me understand how to go from observing a real-world problem → designing a solution → building a working technical system that connects AI and backend engineering.
+
+<img width="961" height="570" alt="Screenshot 2026-07-06 at 11 21 52 AM" src="https://github.com/user-attachments/assets/0d63e128-ae61-4c0d-ad28-daf5c0691c89" />
+
