@@ -1,43 +1,42 @@
 🚍 TransVi – Smart Public Transport Intelligence System
-🔥 Overview
 
-TransVi is an AI-powered system that analyzes public transport occupancy in real time using computer vision and provides live insights for better passenger experience.
+I designed this project during my Design Thinking course, where the goal was to build something that solves a real-world problem rather than just a theoretical or academic exercise.
 
-❗ Problem
+While observing daily commuting patterns, I noticed a recurring issue in public transport systems — passengers have no real-time visibility of crowd levels, which often leads to discomfort, uncertainty while boarding, and inefficient passenger distribution.
 
-Public transport systems lack:
+That’s what led me to build TransVi.
 
-Real-time occupancy visibility
-Crowd prediction
-Efficient passenger distribution
-💡 Solution
+TransVi is a computer vision–based system that detects passengers in real time and estimates occupancy levels inside public transport vehicles, helping improve commuter experience and operational decision-making.
 
-TransVi uses:
+💡 Problem I focused on
 
-Computer Vision for passenger detection
-Backend APIs for data processing
-Real-time occupancy estimation
-⚙️ Tech Stack
-Python (AI / CV)
-OpenCV / YOLO
-Java Spring Boot (Backend)
-PostgreSQL (Database)
-REST APIs
-Git / GitHub
-🧠 Architecture
-Camera Feed
-   ↓
-AI Model (YOLO / OpenCV)
-   ↓
-Passenger Detection
-   ↓
-Spring Boot Backend
-   ↓
-Database
-   ↓
-Dashboard / API
-✨ Features
-Real-time passenger detection
-Occupancy estimation
-Backend API system
-Modular architecture
+No real-time visibility of crowding inside vehicles
+Difficulty in predicting occupancy during peak hours
+Inefficient passenger distribution across transport capacity
+
+🧠 Solution Approach
+
+The idea was to combine computer vision + real-time data processing to create a system that can automatically understand occupancy levels and make that information usable.
+
+⚙️ Tech Stack & Implementation
+
+Python for computer vision pipeline
+YOLO / OpenCV for real-time passenger detection
+Java (Spring Boot) for backend processing layer
+REST APIs for communication between modules
+PostgreSQL for structured data storage
+Git & GitHub for version control
+
+🧩 System Flow
+
+Camera Feed → YOLO/OpenCV Detection → Passenger Counting → Backend Processing → Database Storage → API Output → Visualization Layer
+
+✨ What this project demonstrates
+
+Real-time AI-based detection system
+End-to-end system design thinking
+Backend + AI integration
+Data-driven decision making for smart cities
+Modular and scalable architecture design
+
+This project helped me understand how to go from observing a real-world problem → designing a solution → building a working technical system that connects AI and backend engineering.
